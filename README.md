@@ -9,7 +9,7 @@ You can customise the base environment to include any scripts, artefacts or exte
 
 To automatically install extensions place the extension **.vsix** file in the files/extensions folder, this will get installed when the environment is created.
 
-You can download the extensions from the following website: (https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs)[https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs]
+You can download the extensions from the following website: [https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs](https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs)
 
 ### Packages
 
