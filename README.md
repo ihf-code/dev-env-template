@@ -13,8 +13,14 @@ You can download the extensions from the following website: [https://marketplace
 
 ### Packages
 
-To install required packages into the development image add RUN block, example below, to the Dockerfile.
+To install required packages into the development image add a docker RUN block,
 
+For example to install python3 add :
 <code>
 RUN apt-get install -q python3 python3-pip
 </code>
+
+### Actions
+
+If you want to perform some action when the docker container comes up you can do this by adding bash commands to the `/files/ihfcode/stage2.sh` file.
+This will be executed when the main container comes up but before the vscode service is available.
